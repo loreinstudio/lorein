@@ -36,12 +36,13 @@
       background-color: var(--bg);
     }
 
-    .app-container {
+     .app-container {
       min-height: 100vh;
-      background: radial-gradient(ellipse at top, #1a1a1a 0%, #000 60%);
-      /background-image: url(http://googleusercontent.com/image_collection/image_retrieval/17707071762124467932_0);/
+      /* Menggunakan file BACKGROUND.jpg yang Anda upload ke GitHub */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('BACKGROUND.jpg');
       background-size: cover;
       background-position: center;
+      background-attachment: fixed;
       background-repeat: no-repeat;
       color: var(--fg);
       font-family: 'Libre Baskerville', serif;
@@ -49,6 +50,7 @@
       justify-content: center;
       position: relative;
     }
+    
 
     .wrap {
       width: 100%;
